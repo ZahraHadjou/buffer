@@ -1,0 +1,26 @@
+{
+  "name": "wit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.5.0"
+  },
+  "dependencies": {
+    "cpy-cli": "^4.2.0",
+    "three": "^0.135.0",
+    "three-mesh-bvh": "^0.5.19",
+    "web-ifc": "^0.0.42",
+    "web-ifc-three": "^0.0.121",
+    "web-ifc-viewer": "^1.0.218"
+  }
+}
